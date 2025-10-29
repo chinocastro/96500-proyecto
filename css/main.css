@@ -18,3 +18,20 @@ header nav ul li a{
     color: black;
     font-weight: bold;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    gap: 1rem;
+}
+
+main .boton {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 1rem;
+}
